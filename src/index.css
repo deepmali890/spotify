@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+::-webkit-scrollbar{
+    display: none
+}
+.canvas{
+   position: fixed;
+   top: -15%;
+   z-index: 1;
+   left: -100%;
+   transition: 0.5s;
+
+}
+.active{
+    position: fixed;
+   top: -15%;
+   z-index: 1;
+   left: 0%;
+   transition: 0.5s;
+}
+@tailwind utilities;
